@@ -1,0 +1,53 @@
+                           ┌────────────────────────────┐
+                           │    Input (input.txt)        │
+                           │ ── Reads grid dimensions    │
+                           │ ── Reads autobot start/end  │
+                           │ ── Reads obstacle positions │
+                           └────────────────────────────┘
+                                       │
+                                       ▼
+                           ┌────────────────────────────┐
+                           │       get_user_input        │
+                           │ ── Creates autobots         │
+                           │ ── Sets grid with obstacles │
+                           └────────────────────────────┘
+                                       │
+                                       ▼
+                           ┌────────────────────────────┐
+                           │   WarehouseGrid Setup       │
+                           │ ── Initializes the grid     │
+                           │ ── Places autobots & obstacles │
+                           └────────────────────────────┘
+                                       │
+                                       ▼
+                           ┌────────────────────────────┐
+                           │   CentralController         │
+                           │ ── Manages simulation       │
+                           │ ── Controls bot actions     │
+                           │ ── Detects collisions       │
+                           │ ── Tracks commands, checks goal│
+                           └────────────────────────────┘
+                                       │
+                                       ▼
+                           ┌────────────────────────────┐
+                           │    RewardStrategy           │
+                           │ ── Assigns rewards/penalties│
+                           │ ── Penalizes collisions     │
+                           │ ── Rewards reaching goal    │
+                           └────────────────────────────┘
+                                       │
+                                       ▼
+                           ┌────────────────────────────┐
+                           │    Autobots (Multiple)      │
+                           │ ── Takes actions: move, turn│
+                           │ ── Interacts with grid      │
+                           │ ── Learns from actions      │
+                           └────────────────────────────┘
+                                       │
+                                       ▼
+                           ┌────────────────────────────┐
+                           │     Simulation Output       │
+                           │ ── Total commands, penalties│
+                           │ ── Final positions          │
+                           │ ── Possible visualization   │
+                           └────────────────────────────┘
