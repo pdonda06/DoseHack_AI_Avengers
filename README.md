@@ -1,6 +1,6 @@
 # AI_Avengers
 # Autonomous Bot Navigation Simulation
-##Team Members-<a href="https://github.com/pdonda06" target="_blank">Prince Donda</a>
+## Team Members-<a href="https://github.com/pdonda06" target="_blank">Prince Donda</a>, <a href="https://github.com/priyanshu6091" target="_blank">Priyanshu Galani</a>, <a href="https://github.com/tirthgodhani" target="_blank">Tirth Godhani</a>
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)
